@@ -4,7 +4,7 @@ import BrandStatement from "./components/BrandStatement";
 import ConditionsExperience from "./components/ConditionsExperience";
 import TreatmentStories from "./components/TreatmentStories";
 import DoctorSection from "./components/DoctorSection";
-import ResultsGallery from "./components/ResultsGallery";
+
 import Testimonials from "./components/Testimonials";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
