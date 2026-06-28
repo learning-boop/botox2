@@ -1,0 +1,10 @@
+Place your hero campaign image here as: hero-campaign.png
+Place the doctor photo here as: assets/matla.jpg
+
+These are referenced in:
+- Hero.tsx: /hero-campaign.png
+- DoctorSection.tsx: /assets/matla.jpg
+
+Recommended sizes:
+- hero-campaign.png: 1200×1600px (portrait, ~3:4 ratio)
+- assets/matla.jpg: 800×1000px (portrait, ~4:5 ratio)
