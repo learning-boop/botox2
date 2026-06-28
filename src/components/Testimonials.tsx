@@ -36,12 +36,14 @@ export default function Testimonials() {
     return () => clearInterval(timer);
   }, [paused]);
 
-  const goTo = (i) => {
-    setActive(i);
-    setPaused(true);
-    // Resume auto-scroll after 8s of inactivity
-    setTimeout(() => setPaused(false), 8000);
-  };
+  const goTo = (i: number) => {
+  setActive(i);
+  setPaused(true);
+
+  window.setTimeout(() => {
+    setPaused(false);
+  }, 8000);
+};
 
   return (
     <section style={{ background: "var(--cream)", padding: "140px 0", overflow: "hidden" }}>
